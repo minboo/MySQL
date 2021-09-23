@@ -54,44 +54,44 @@
 
 ​	
 ### 进阶4：常见函数
-		一、单行函数
-		1、字符函数
-			concat拼接
-			substr截取子串
-			upper转换成大写
-			lower转换成小写
-			trim去前后指定的空格和字符
-			ltrim去左边空格
-			rtrim去右边空格
-			replace替换
-			lpad左填充
-			rpad右填充
-			instr返回子串第一次出现的索引
-			length 获取字节个数
-		
-		2、数学函数
-			round 四舍五入
-			rand 随机数
-			floor向下取整
-			ceil向上取整
-			mod取余
-			truncate截断
-		3、日期函数
-			now当前系统日期+时间
-			curdate当前系统日期
-			curtime当前系统时间
-			str_to_date 将字符转换成日期
-			date_format将日期转换成字符
-		4、流程控制函数
-			if 处理双分支
-			case语句 处理多分支
-				情况1：处理等值判断
-				情况2：处理条件判断
-		
-	5、其他函数
-		version版本
-		database当前库
-		user当前连接用户
+	一、单行函数
+	1、字符函数
+		concat拼接
+		substr截取子串
+		upper转换成大写
+		lower转换成小写
+		trim去前后指定的空格和字符
+		ltrim去左边空格
+		rtrim去右边空格
+		replace替换
+		lpad左填充
+		rpad右填充
+		instr返回子串第一次出现的索引
+		length 获取字节个数
+
+	2、数学函数
+		round 四舍五入
+		rand 随机数
+		floor向下取整
+		ceil向上取整
+		mod取余
+		truncate截断
+	3、日期函数
+		now当前系统日期+时间
+		curdate当前系统日期
+		curtime当前系统时间
+		str_to_date 将字符转换成日期
+		date_format将日期转换成字符
+	4、流程控制函数
+		if 处理双分支
+		case语句 处理多分支
+			情况1：处理等值判断
+			情况2：处理条件判断
+
+5、其他函数
+	version版本
+	database当前库
+	user当前连接用户
 
 
 	
