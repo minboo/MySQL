@@ -419,6 +419,7 @@ sql92
 	3、union代表去重，union all代表不去重
 
 
+
 ## DML语言
 
 ### 插入
