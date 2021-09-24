@@ -24,6 +24,7 @@
 	语法：ALTER TABLE 表名 ADD|MODIFY|DROP|CHANGE COLUMN 字段名 【字段类型】;
 	
 	#①修改字段名
+	
 	ALTER TABLE studentinfo CHANGE  COLUMN sex gender CHAR;
 	
 	#②修改表名
