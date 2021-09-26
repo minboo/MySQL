@@ -45,9 +45,6 @@
 	DROP TABLE [IF EXISTS] studentinfo;
 
 
-
-
-
 ### 常见类型
 
 	整型：
