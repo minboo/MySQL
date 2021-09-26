@@ -38,7 +38,6 @@
 	#⑤删除字段
 	ALTER TABLE studentinfo DROP COLUMN email;
 
-
 	
 	#3.删除表
 	
