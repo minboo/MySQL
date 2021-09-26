@@ -1,5 +1,6 @@
 ## DDL语句
 ### 库和表的管理
+
 库的管理：
 	一、创建库
 	create database 库名
