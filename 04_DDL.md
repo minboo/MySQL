@@ -2,11 +2,16 @@
 ### 库和表的管理
 
 库的管理：
+
 	一、创建库
+	
 	create database 库名
 	二、删除库
+	
 	drop database 库名
+	
 表的管理：
+
 	#1.创建表
 	
 	CREATE TABLE IF NOT EXISTS stuinfo(
