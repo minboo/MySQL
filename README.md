@@ -628,7 +628,6 @@ sql92
 	select @@tx_isolation;
 
 
-
 ## 视图
 含义：理解成一张虚拟的表
 
