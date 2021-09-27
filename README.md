@@ -693,6 +693,7 @@ sql92
 	DESC test_v7;
 	SHOW CREATE VIEW test_v7;
 
+
 ## 存储过程
 
 含义：一组经过预先编译的sql语句的集合
