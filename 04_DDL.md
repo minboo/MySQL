@@ -3,52 +3,49 @@
 
 库的管理：
 
-	一、创建库
-	
-	create database 库名
-	二、删除库
-	
-	drop database 库名
-	
-表的管理：
+- 一、创建库
+```mysql
+create database 库名
+```
+- 二、删除库
+```sql
+drop database 库名
+```
+- 表的管理：
+```mysql
+#1.创建表
 
-	#1.创建表
-	
-	CREATE TABLE IF NOT EXISTS stuinfo(
-		stuId INT,
-		stuName VARCHAR(20),
-		gender CHAR,
-		bornDate DATETIME
+CREATE TABLE IF NOT EXISTS stuinfo(
+	stuId INT,
+	stuName VARCHAR(20),
+	gender CHAR,
+	bornDate DATETIME	
+);
 
+DESC studentinfo;
+#2.修改表 alter
+语法：ALTER TABLE 表名 ADD|MODIFY|DROP|CHANGE COLUMN 字段名 【字段类型】;
 
-	
-	);
-	
-	DESC studentinfo;
-	#2.修改表 alter
-	语法：ALTER TABLE 表名 ADD|MODIFY|DROP|CHANGE COLUMN 字段名 【字段类型】;
-	
-	#①修改字段名
-	
-	ALTER TABLE studentinfo CHANGE  COLUMN sex gender CHAR;
-	
-	#②修改表名
-	ALTER TABLE stuinfo RENAME [TO]  studentinfo;
-	#③修改字段类型和列级约束
-	ALTER TABLE studentinfo MODIFY COLUMN borndate DATE ;
-	
-	#④添加字段
-	
-	ALTER TABLE studentinfo ADD COLUMN email VARCHAR(20) first;
-	#⑤删除字段
-	ALTER TABLE studentinfo DROP COLUMN email;
+#①修改字段名
 
-	
-	#3.删除表
-	
-	DROP TABLE [IF EXISTS] studentinfo;
+ALTER TABLE studentinfo CHANGE  COLUMN sex gender CHAR;
 
+#②修改表名
+ALTER TABLE stuinfo RENAME [TO]  studentinfo;
+#③修改字段类型和列级约束
+ALTER TABLE studentinfo MODIFY COLUMN borndate DATE ;
 
+#④添加字段
+
+ALTER TABLE studentinfo ADD COLUMN email VARCHAR(20) first;
+#⑤删除字段
+ALTER TABLE studentinfo DROP COLUMN email;
+
+#3.删除表
+
+DROP TABLE [IF EXISTS] studentinfo;
+
+```
 ### 常见类型
 
 	整型：
