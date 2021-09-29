@@ -1,7 +1,7 @@
 ## DDL语句
 ### 库和表的管理
 
-库的管理：
+**库的管理：**
 
 - 一、创建库
 ```mysql
@@ -61,9 +61,9 @@ DROP TABLE [IF EXISTS] studentinfo;
 
 ### 常见约束
 
-	NOT NULL
-	DEFAULT
-	UNIQUE
-	CHECK
-	PRIMARY KEY
-	FOREIGN KEY
+	NOT NULL	非空
+	DEFAULT		默认	
+	UNIQUE		唯一
+	CHECK		检查
+	PRIMARY KEY	主键
+	FOREIGN KEY	外键
