@@ -64,6 +64,6 @@ DROP TABLE [IF EXISTS] studentinfo;
 	NOT NULL	非空
 	DEFAULT		默认	
 	UNIQUE		唯一
-	CHECK		检查
+	CHECK		限制列中的值的范围
 	PRIMARY KEY	主键
 	FOREIGN KEY	外键
