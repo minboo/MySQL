@@ -1,7 +1,6 @@
 Microsoft Windows [版本 6.1.7600]
 版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
 
-
 C:\Windows\system32>net stop mysql0815
 MySQL0815 服务正在停止.
 MySQL0815 服务已成功停止。
