@@ -58,7 +58,7 @@
 
 MySQL 为关系型数据库(Relational Database Management System)，一个关系型数据库由一个或数个表格组成, 如图所示的一个表格：
 
-<img alt="21分钟MySQL基础入门" height="221" src="img/data.jpg">
+![image](https://user-images.githubusercontent.com/69302396/137767590-1ea2046e-6119-4522-9734-7c8239015d82.png)
 
 - `表头(header)`: 每一列的名称;
 - `列(col)`: 具有相同数据类型的数据的集合;
