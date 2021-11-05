@@ -602,4 +602,3 @@ where (a.peopleId,a.seq) in (select peopleId,seq from vitae group by peopleId,se
 
 - http://www.w3school.com.cn/sql/index.asp
 - http://www.1keydata.com/cn/sql/sql-count.php
-
